@@ -1,4 +1,5 @@
-body {
+
+body, html {
     margin: 0;
     font-family: 'Montserrat-Regular', sans-serif;
     font-size: 15px;
@@ -36,8 +37,9 @@ svg .cls-2{
 /*  Container  */
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
  /* Button  */
@@ -47,7 +49,7 @@ svg .cls-2{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     color: #fff;
 
     border: 2px solid #fff;
@@ -80,8 +82,8 @@ svg .cls-2{
 
 .header__logo {
     font-size: 30px;
-    font-weight: 700;
     color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
 }
 
 .nav {
@@ -150,8 +152,8 @@ svg .cls-2{
     margin-bottom: 30px;
 }
 .intro__title {
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 150px;
-    font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
 }
@@ -193,7 +195,7 @@ svg .cls-2{
     color: #fff;
 }
 .slider__number {
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 24px;
 }
 .slider__item.active {
@@ -225,7 +227,7 @@ svg .cls-2{
 }
 .section__title{
     font-size: 30px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     text-transform: uppercase;
 }
 .section__title::after{
@@ -277,7 +279,7 @@ svg .cls-2{
 .card__text {
     width: 100%;
     font-size: 18px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -363,7 +365,7 @@ svg .cls-2{
     margin-bottom: 10px;
 
     font-size: 72px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     line-height: 1;
 }
 .stat__text {
@@ -753,7 +755,7 @@ svg .cls-2{
 }
 .blog__day {
     font-size: 30px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     line-height: 1;
 }
 .blog__month{
@@ -814,6 +816,7 @@ svg .cls-2{
     font-size: 25px;
 }
 .map__title {
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
 }
@@ -849,7 +852,7 @@ svg .cls-2{
 .footer__logo {
     text-decoration: none;
     font-size: 46px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     color: #ccc;
 
     margin-bottom: 40px;
@@ -869,7 +872,6 @@ svg .cls-2{
 .footer__title {
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: normal;
     
     margin-top: 10px;
     margin-bottom: 40px;
@@ -939,7 +941,7 @@ svg .cls-2{
 }
 .social__header b {
     font-size: 18px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
 }
 .social__content {
     margin-top: 15px;
@@ -997,7 +999,7 @@ svg .cls-2{
 }
 .social__btn {
     font-size: 14px;
-    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
     color: #fff;
     text-transform: uppercase;
     line-height: 1.1;
